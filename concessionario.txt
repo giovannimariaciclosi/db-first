@@ -1,0 +1,16 @@
+ID - SMALLINT - Primary Key, UNIQUE, AUTO_INCREMENT, NOT_NULL
+brand - VARCHAR(100) - NOT_NULL
+model - VARCHAR(100) - NOT_NULL
+engine_power_supply_type - VARCHAR(50) - "trype1, type2," NOT_NULL
+shift_type - VARCHAR(25) - NOT_NULL
+exterior_color - VARCHAR(50) - NOT_NULL
+interior_color - VARCHAR(50) - NULL
+n_seats - TINYINT - NOT_NULL
+km_traveled - FLOAT(8,2) - NOT_NULL
+registration_year - YEAR - NOT_NULL
+horsepower - SMALLINT - NULL
+cylinder_capacity - SMALLINT - NULL
+license_plate - VARCHAR(7) - UNIQUE, NOT_NULL
+never_crashed - BOOLEAN - NULL
+price - FLOAT(8,2) - NOT_NULL
+ad_description - TEXT - NULL
